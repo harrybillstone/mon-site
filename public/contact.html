@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+  <body>
+    <form
+      name="contact"
+      method="POST"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+    >
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="hidden" name="subject" value="Nouveau message depuis Mon Site" />
+
+      <div hidden>
+        <label>
+          Ne pas remplir :
+          <input name="bot-field" />
+        </label>
+      </div>
+
+      <input type="text" name="nom" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
+  </body>
+</html>
